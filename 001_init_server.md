@@ -8,20 +8,17 @@ https://nodejs.org/fr/
 
 **Dans le dossier du projet :**
 
-- Création du dossier * *server* * qui va contenir l'ensemble du projet
+- Création du dossier *server* qui va contenir l'ensemble du projet
 ```
-mkdir server && cd server
-'''
+mkdir server
+cd server
+```
 
-- Création du fichier * *package.json* * pour gérer le projet (scripts, dépendances...) avec la commande :
-```
-npm init
-```
+- Création du fichier *package.json* pour gérer le projet (scripts, dépendances...) avec la commande :
+`npm init`
 
 - Création du fichier index.js
-```
-touch index.js
-```
+`touch index.js`
 
 
 - Ajouter le code à l'intérieur :
@@ -39,7 +36,5 @@ app.listen(5000);
 ```
 
 - Lancer le test de fonctionnement :
-```
-node index.js
-```
+`node index.js`
 Regarder sur l'adresse [localhost:5000](localhost:5000)
