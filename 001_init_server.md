@@ -43,4 +43,4 @@ app.listen(5000);
 ```
 node index.js
 ```
-Regarder à l'adresse [localhost:5000](localhost:5000) le bon fonctionnement avec l'affichage {"hi":"there"}
+Regarder à l'adresse [localhost:5000](http://localhost:5000) le bon fonctionnement avec l'affichage {"hi":"there"}
