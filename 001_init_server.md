@@ -8,10 +8,10 @@ https://nodejs.org/fr/
 
 **Dans le dossier du projet :**
 
-- Création du dossier *server* qui va contenir l'ensemble du projet
+- Création du dossier *name_project* qui va contenir l'ensemble du name_project
 ```
-mkdir server
-cd server
+mkdir name_project
+cd name_project
 ```
 
 - Création du fichier *package.json* pour gérer le projet (scripts, dépendances...) avec la commande :
@@ -19,11 +19,15 @@ cd server
 npm init
 ```
 
+- Installation de la bibliothèque **express**
+```
+npm install --save express
+```
+
 - Création du fichier index.js
 ```
 touch index.js
 ```
-
 
 - Ajouter le code à l'intérieur :
 ```javascript
